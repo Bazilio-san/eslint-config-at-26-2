@@ -1,0 +1,30 @@
+# Development and IDE files
+.claude/
+.idea/
+.git/
+.run/
+.serena/
+.vscode/
+.env
+.env.*
+.gitignore
+
+# Temporary and test files
+_tmp/
+_test*/
+_misc/
+temp/
+tmp/
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Project-specific exclusions
+publish.sh
+
+# Keep only these essential files for publication
+!README.md
+!LICENSE
+!package.json

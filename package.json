@@ -1,0 +1,41 @@
+{
+  "name": "eslint-config-at-26-2",
+  "version": "26.04.07",
+  "type": "module",
+  "main": "eslint.config.js",
+  "exports": {
+    ".": "./eslint.config.js"
+  },
+  "files": [
+    "eslint.config.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "flat-config",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=20.0"
+  },
+  "dependencies": {
+    "@eslint/eslintrc": "^3.3.5",
+    "@typescript-eslint/eslint-plugin": "^8.58.0",
+    "@typescript-eslint/parser": "^8.58.0",
+    "eslint": "^10.2.0",
+    "eslint-plugin-import-x": "^4.16.2",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-unused-imports": "^4.4.1",
+    "globals": "^17.4.0",
+    "typescript": "^6.0.2"
+  },
+  "author": {
+    "name": "Viacheslav Makarov",
+    "email": "npmjs@bazilio.ru"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bazilio-san/eslint-config-at-26-2.git"
+  }
+}
